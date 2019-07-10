@@ -192,7 +192,9 @@ def player_numbers(name)
     team_data[:players].each do |player|
       binding.pry
       if team_data[:team_name] == name
-        
+        player.each do |player_name, stats|
+          stats[:number]
+        end
       end
 
     end
