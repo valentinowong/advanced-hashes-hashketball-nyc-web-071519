@@ -190,9 +190,9 @@ def player_numbers(name)
   arr = []
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
-      binding.pry
       if team_data[:team_name] == name
         player.each do |player_name, stats|
+          binding.pry
           stats[:number]
         end
       end
