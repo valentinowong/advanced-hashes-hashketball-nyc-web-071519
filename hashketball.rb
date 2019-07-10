@@ -192,11 +192,9 @@ def player_numbers(name)
     team_data[:players].each do |player|
       if team_data[:team_name] == name
         player.each do |player_name, stats|
-          binding.pry
           arr.push(stats[:number])
         end
       end
-
     end
   end
 end
