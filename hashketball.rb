@@ -180,4 +180,3 @@ def team_colors(name)
   end
 end
 
-team_colors("Brooklyn Nets")
