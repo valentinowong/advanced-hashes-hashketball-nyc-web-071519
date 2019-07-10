@@ -183,4 +183,5 @@ def team_names
   game_hash.each do |location, team_data|
     arr.push(team_data[:team_name])
   end
+  arr
 end
