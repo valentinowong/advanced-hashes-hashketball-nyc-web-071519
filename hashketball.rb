@@ -155,6 +155,7 @@ def num_points_scored(player_name)
       end
     end
   end
+  points
 end
 
 num_points_scored("Alan Anderson")
