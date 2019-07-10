@@ -152,8 +152,7 @@ def num_points_scored(player_name)
     team_data[:players].each do |player|
       if player_name = player.keys.to_s do
         points = player[player_name][:points]
-      end  
-      binding.pry
+      end
     end
   end
 end
