@@ -178,3 +178,5 @@ def team_colors(name)
     end
   end
 end
+
+team_colors("Brooklyn Nets")
