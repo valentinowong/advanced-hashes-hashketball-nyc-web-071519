@@ -200,11 +200,12 @@ def player_numbers(name)
   arr
 end
 
-def player_stats(name)
+def player_stats(player_name)
+  stats = {}
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
       if [player_name] == player.keys
-        players_shoe = player[player_name][:shoe]
+        stats = player[player_name]
       end
     end
   end  
