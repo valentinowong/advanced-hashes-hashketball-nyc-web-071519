@@ -200,4 +200,12 @@ def player_numbers(name)
   arr
 end
 
-player_numbers("Brooklyn Nets")
+def player_stats(name)
+  game_hash.each do |location, team_data|
+    team_data[:players].each do |player|
+      if [player_name] == player.keys
+        players_shoe = player[player_name][:shoe]
+      end
+    end
+  end  
+end
