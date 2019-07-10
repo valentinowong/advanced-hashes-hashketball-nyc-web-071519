@@ -197,6 +197,7 @@ def player_numbers(name)
       end
     end
   end
+  arr
 end
 
 player_numbers("Brooklyn Nets")
