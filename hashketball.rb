@@ -186,7 +186,7 @@ def team_names
   arr
 end
 
-def player_nambers(name)
+def player_numbers(name)
   arr = []
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
