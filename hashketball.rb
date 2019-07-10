@@ -232,5 +232,3 @@ def big_shoe_rebounds
   end
   players_rebounds
 end
-
-big_shoe_rebounds
