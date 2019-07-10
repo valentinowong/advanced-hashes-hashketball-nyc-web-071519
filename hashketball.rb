@@ -185,3 +185,18 @@ def team_names
   end
   arr
 end
+
+def player_nambers(name)
+  arr = []
+  game_hash.each do |location, team_data|
+    team_data[:players].each do |player|
+      binding.pry
+      if team_data[:team_name] == name
+      
+      end
+
+    end
+  end
+end
+
+player_numbers()
