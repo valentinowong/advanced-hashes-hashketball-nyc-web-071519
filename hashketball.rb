@@ -213,6 +213,7 @@ end
 def big_shoe_rebounds
   player_name = ""
   shoe_size = 0
+  players_rebounds = 0
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
       player.each do |name,stats|
@@ -222,7 +223,14 @@ def big_shoe_rebounds
       end
     end
   end
-  binding.pry
+  game_hash.each do |location, team_data|
+    team_data[:players].each do |player|
+      if [player_name] == player.keys
+        players_rebounds = player[player_name][:rebounds]
+      end
+    end
+  end
+  players_rebounds
 end
 
 big_shoe_rebounds
